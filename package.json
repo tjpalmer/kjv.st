@@ -1,0 +1,11 @@
+{
+  "name": "kjv.st",
+  "version": "0.0.1",
+  "description": "KJV Bible for Scripture Track",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server ./docs --cors -d false -p 52119"
+  }
+}
